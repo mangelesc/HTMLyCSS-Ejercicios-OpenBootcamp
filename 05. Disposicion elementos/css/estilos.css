@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    position: sticky;
+    display: inline-block;
+    text-align: center;
+    top: 0;
+    height: 80px;
+    overflow: hidden;
+    z-index: 3;
+    
+}
+.imgheader {
+    justify-content:center;
+    width: 100vw;
+    z-index: 2;
+    object-fit: cover;
+
+}
+.titulo {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: transparent;
+    color: rgb(56, 58, 59);
+    z-index: 3;
+}
+
+.galeria {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.imagen {
+    width: 300px;
+}
