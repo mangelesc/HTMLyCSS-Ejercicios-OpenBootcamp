@@ -1,0 +1,30 @@
+.div-btn {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+}
+
+.btn-modern {
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20pt;
+    color: aliceblue;
+    background-color: rgb(94, 188, 172);
+    text-align: center;
+    border: gray solid 2px;
+    transition: translateY 1s;
+}
+
+.btn-modern:hover {
+    transition: 0.4s;
+    transform: translateY(-5px);
+    background-color: rgb(14, 131, 111);
+    color: rgb(12, 66, 47);
+    box-shadow: 5px 5px 5px rgba(46, 45, 45, 0.744);
+}
